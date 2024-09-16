@@ -2,7 +2,7 @@ package br.com.fiap.listadecompras.data
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import br.com.fiap.listadecompras.ItemModel
+import br.com.fiap.listadecompras.model.ItemModel
 
 /**
  * Uma classe abstrata que serve como o ponto principal de acesso ao banco de dados SQLite para o aplicativo.

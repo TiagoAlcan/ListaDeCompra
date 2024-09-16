@@ -19,7 +19,8 @@ interface ItemDao {
      * Este método busca todos os itens do banco de dados.
      * Ele usa uma consulta SQL definida com a anotação @Query para buscar os dados.
      * O método retorna um objeto LiveData contendo uma lista de ItemModel.
-     * LiveData é parte da biblioteca Android Architecture Components, que nos permite construir objetos de dados que notificam as views quando o banco de dados subjacente muda.
+     * LiveData é parte da biblioteca Android Architecture Components, que nos permite construir objetos de dados que notificam as views quando o banco de
+     * dados subjacente muda.
      *
      * @return objeto LiveData contendo uma lista de ItemModel.
      */

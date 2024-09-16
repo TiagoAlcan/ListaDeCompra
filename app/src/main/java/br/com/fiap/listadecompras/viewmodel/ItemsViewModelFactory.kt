@@ -2,7 +2,6 @@ package br.com.fiap.listadecompras.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ItemsViewModel
 import androidx.lifecycle.ViewModelProvider
 
 /**

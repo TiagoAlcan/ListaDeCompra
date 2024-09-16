@@ -1,4 +1,4 @@
-package br.com.fiap.listadecompras
+package br.com.fiap.listadecompras.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
