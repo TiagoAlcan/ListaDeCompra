@@ -1,4 +1,4 @@
-package br.com.fiap.listadecompras
+package br.com.fiap.listadecompras.viewmodel
 
 import android.view.View
 import android.view.ViewGroup
