@@ -10,11 +10,8 @@ import br.com.fiap.listadecompras.ItemModel
  * A classe estende RoomDatabase, que é uma classe do Room Persistence Library que contém o banco de dados.
  * Dentro da classe, você define um método abstrato para cada @Dao que está associado ao banco de dados.
  *
- * @author Ewerton Carreira
- * @version 1.0
- * @since 2023-03-01
  */
-@DataBase(entities = [ItemModel::class], version = 1)
+@Database(entities = [ItemModel::class], version = 1)
 abstract class ItemDatabase : RoomDatabase() {
 
     /**

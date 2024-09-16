@@ -16,9 +16,6 @@ import kotlinx.coroutines.launch
  * Ela mantém uma referência para o DAO e um LiveData que contém a lista de itens.
  * A classe também fornece métodos para adicionar e remover itens.
  *
- * @author Ewerton Carreira
- * @version 1.0
- * @since 2023-03-01
  */
 class ItemsViewModel(application: Application) : AndroidViewModel(application) {
 

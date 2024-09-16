@@ -9,9 +9,6 @@ import androidx.room.PrimaryKey
  * Cada instância da classe representa uma linha na tabela.
  * A classe é uma data class do Kotlin, o que significa que ela gera automaticamente métodos úteis, como equals(), hashCode() e toString().
  *
- * @author Ewerton Carreira
- * @version 1.0
- * @since 2023-03-01
  */
 @Entity // Anotação que indica que esta classe é uma entidade, ou seja, uma tabela no banco de dados.
 data class ItemModel(

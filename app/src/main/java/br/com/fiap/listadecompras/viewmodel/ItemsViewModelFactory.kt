@@ -2,6 +2,7 @@ package br.com.fiap.listadecompras.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ItemsViewModel
 import androidx.lifecycle.ViewModelProvider
 
 /**
@@ -9,9 +10,6 @@ import androidx.lifecycle.ViewModelProvider
  * Esta classe implementa a interface `ViewModelProvider.Factory` para fornecer uma maneira personalizada de instanciar ViewModels.
  *
  * @property application A instância da aplicação, usada para criar uma instância do `ItemsViewModel`.
- * @author Ewerton Carreira
- * @version 1.0
- * @since 2023-02-01
  */
 class ItemsViewModelFactory(private val application: Application) : ViewModelProvider.Factory {
 
